@@ -1,0 +1,84 @@
+@import "icomoon-variables";
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('#{$icomoon-font-path}/icomoon.eot?79tcmc');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?79tcmc#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?79tcmc') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?79tcmc') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?79tcmc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-market-1 {
+  &:before {
+    content: $icon-market-1;
+  }
+}
+.icon-market-2 {
+  &:before {
+    content: $icon-market-2;
+  }
+}
+.icon-market-3 {
+  &:before {
+    content: $icon-market-3;
+  }
+}
+.icon-market-4 {
+  &:before {
+    content: $icon-market-4;
+  }
+}
+.icon-market-5 {
+  &:before {
+    content: $icon-market-5;
+  }
+}
+.icon-market-6 {
+  &:before {
+    content: $icon-market-6;
+  }
+}
+.icon-market-7 {
+  &:before {
+    content: $icon-market-7;
+  }
+}
+.icon-market-8 {
+  &:before {
+    content: $icon-market-8;
+  }
+}
+.icon-left {
+  &:before {
+    content: $icon-left;
+  }
+}
+.icon-right {
+  &:before {
+    content: $icon-right;
+  }
+}
+.icon-arrow-down2 {
+  &:before {
+    content: $icon-arrow-down2;
+  }
+}
+
